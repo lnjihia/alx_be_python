@@ -19,9 +19,8 @@ match priority:
 
 # Modify the reminder if the task is time-bound
 if time_bound == "yes" and priority in {"high", "medium", "low"}:
-    reminder += " that requires immediate attention today!"
+    #reminder += " that requires immediate attention today!"
+    print(reminder + " that requires immediate attention today!")
 elif time_bound == "no" and priority in {"high", "medium", "low"}:
-    reminder += ". Consider completing it when you have free time."
-
-# Display the final reminder
-print("\n" + reminder)
+    #reminder += ". Consider completing it when you have free time."
+     print(reminder + ". Consider completing it when you have free time.")
