@@ -1,14 +1,11 @@
 def display_menu():
-    print("\nShopping List Manager")
-    print("1. Add Item")
-    print("2. Remove Item")
-    print("3. View List")
-    print("4. Exit")
+    print(f"\nShopping List Manager")
+    print(f"1. Add Item")
+    print(f"2. Remove Item")
+    print(f"3. View List")
+    print(f"4. Exit")
 
 def main():
-    """
-    Main function to manage the shopping list.
-    """
     shopping_list = []  # Initialize the shopping list
 
     while True:
